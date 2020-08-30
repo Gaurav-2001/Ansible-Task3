@@ -1,0 +1,9 @@
+- hosts: lb
+  user: ec2-user 
+  roles:
+          - loadbalancer
+
+- hosts: web
+  user: ec2-user
+  roles:
+          - webserver_t3

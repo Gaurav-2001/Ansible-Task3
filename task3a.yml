@@ -1,0 +1,6 @@
+- hosts: localhost
+  vars_files:
+          - secure.yml
+  roles:
+          - aws_instance_t3
+
